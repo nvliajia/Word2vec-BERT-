@@ -1,4 +1,4 @@
-环境：Unbutu18.04，gensim，bert-as-service
+环境：Windows10，gensim，bert-as-service
 
 先下载好中文BERT预训练模型，然后开启bert-as-service
 
