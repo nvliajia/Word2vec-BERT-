@@ -3,4 +3,4 @@
 
 通过对比两种词向量的可视化图可以看出，BERT生成的词向量质量显然比word2vec的词向量质量要好。
 ![Image text](https://github.com/Pacerzhujiang0112/Word2vec-BERT-/blob/master/images/word2vec.jpg)
-![Image text](https://github.com/Pacerzhujiang0112/Word2vec-BERT-/blob/master/images/word2vec.jpg)
+![Image text](https://github.com/Pacerzhujiang0112/Word2vec-BERT-/blob/master/images/bert.jpg)
