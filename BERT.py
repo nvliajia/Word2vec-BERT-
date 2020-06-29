@@ -6,12 +6,12 @@ corpus = []
 bc = BertClient()
 km = KMeans(n_clusters=2)
 pca = PCA(n_components=2)
-gb = open('C:\\Users\\Administrator\\Desktop\\funNLP-master\\data\\动物词库\\THUOCL_animal.txt',encoding='utf-8').readlines()
+gb = open('./data/动物词库.txt',encoding='utf-8').readlines()
 for word in gb[:30]:    #为了方便，每个词库只取了前面30个单词
     word = word.split('\t')
     corpus.append(word[0])
 
-fb = open('C:\\Users\\Administrator\\Desktop\\funNLP-master\\data\\地名词库\\THUOCL_diming.txt',encoding='utf-8').readlines()
+fb = open('./data/地名词库.txt',encoding='utf-8').readlines()
 for word in fb[:30]:
     word = word.split('\t')
     corpus.append(word[0])
